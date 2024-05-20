@@ -142,7 +142,7 @@ TEST test_UIResponsiveness_with_1024_pixels
 END TEST
 
 TEST test_UIResponsiveness_with_2048_pixels
-  ASSERT_FALSE(uiComponent.adjustsToScreenSize(1024), "UI should fail to width of 2048 pixels")
+  ASSERT_FALSE(uiComponent.adjustsToScreenSize(2048), "UI should fail to width of 2048 pixels")
 END TEST
 
 TEST test_UIResponsiveness_with_null_value
